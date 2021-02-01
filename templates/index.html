@@ -1,0 +1,63 @@
+<!-- Contains the only website page that is loaded. Since the DOM
+is directly manipulated by the scripts.js file, the page never has to reload,
+and the submitted form makes an AJAX call to the back-end. Uses layout.html
+as a Jinja template for the boilerplate. -->
+{% extends "layout.html" %}
+
+{% block body %}
+    <!-- Header that contains the title and View History button -->
+    <div class="jumbotron">
+        <h1>Meteorological Query Tool</h1>
+        <h6>&#169Cjoshi Corp.</h6>
+        <br>
+        <button id="input_history" class="btn btn-secondary">
+            View Input History
+        </button>
+    </div>
+
+    <!-- Form that is submitted to the server -->
+    <form>
+        <div class="container">
+            <select id="input_station", name="station">
+                <option disabled selected value="">Select Station Name</option>
+                <!-- Station and month names are given by app.py file to be iterated
+                over by Jinja loops. -->
+                {% for station in stations %}
+                    <option value="{{ station }}">{{ station }}</option>
+                {% endfor %}
+            </select>
+
+            <select id="input_month" name="month">
+                <option disabled selected value="">Select Month</option>
+                {% for month in months %}
+                    <option value="{{ month["numeric"] }}">{{ month["name"] }}</option>
+                {% endfor %}
+            </select>
+
+            <input type="text" id="input_day" name="day" placeholder="Enter Day" 
+            autocomplete="off">
+            <input type="text" id="input_year" name="year" placeholder="Enter Year"
+            autocomplete="off">
+            <br> <br>
+
+            <h3>Data Fields</h3>
+            <!-- Fields variable shows human readable name while input tag's
+            value contains database column name -->
+            {% for field in fields %}
+                <input type="checkbox" id={{ field["database"] }} name={{ field["database"] }}>
+                <label for={{ field["database"] }}>{{ field["client"] }}</label>
+            {% endfor %}
+
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+
+        <hr>
+    </form>
+
+    <!-- Empty table for output and header for possible error -->
+    <div class="container">
+        <h4 id="error_message"></h4>
+        <table id="output"></table>
+    </div>
+
+{% endblock %}

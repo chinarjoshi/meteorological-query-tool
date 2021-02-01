@@ -1,1 +1,0 @@
-# meteorological-query-tool

@@ -82,7 +82,7 @@ def query():
             'SELECT * '
             'FROM climate '
            f'WHERE name LIKE "%{fields["station"][2:-3]}%" '
-           f'WHERE date LIKE "%{date}%" '
+           f'AND date LIKE "%{date}%" '
             'ORDER BY name DESC '
             'LIMIT 1'
         ).fetchone()

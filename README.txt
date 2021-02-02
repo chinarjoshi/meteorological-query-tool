@@ -2,11 +2,11 @@ METEOROLOGICAL QUERY TOOL
     -created by Chinar Joshi
 
 The purpose of the MQT is to provide a statistical representation of climate data
-from 30 years ago to today from numerous stations across the United States. This is done though
-the use of the National Climate Data Center's database and a web application to provide a seamless
-user interface. All queries are conducted in log(n) time complexity due to the use of SQL indexes. 
-The user can query data from a specific date or create a visualization of climate trends using the
-Matplotlib library.
+from 30 years ago to today from numerous meteorological stations across the United States. This is 
+done though the use of the National Climate Data Center's database and a web application to provide 
+a seamless user interface. All queries are conducted in log(n) time complexity due to the use of SQL
+indexes. The user can query data from a specific date or create a visualization of climate trends
+using the Matplotlib library.
 
 The followning languages and techonologies are used in the implementation:
     SERVER SIDE:

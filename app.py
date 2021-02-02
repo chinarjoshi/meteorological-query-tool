@@ -40,7 +40,7 @@ class Constants:
         self.fields = [{'client': client, 'database': database} for client, database in zip(
             ('Station', 'Name', 'Date', 'Average Cloud Cover', 'Precipitation', 'Percent Sun',
                 'Snowfall', 'Snow Depth', 'Average Temp', 'Max Temp', 'Min Temp', 'Total Sun'),
-            [column for column in db.execute(self.commands['columns'])]
+            (column for column in db.execute(self.commands['columns']))
         )]
         # Selects all station names.
         self.stations = [station for station in db.execute(self.commands['stations'])]

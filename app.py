@@ -76,7 +76,7 @@ def query():
     # Associates type of input with database output through list comprehension
     # that zips client names with select query, and returns list as json.
     return jsonify([{'name': name, 'value': value} for name, value in zip(
-        (field['client'] for field in constants.fields['client']),
+        (field['client'] for field in constants.fields),
         db.execute(constants.commands('output'), fields, date).fetchone()
     )])
 

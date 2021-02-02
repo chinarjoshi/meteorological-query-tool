@@ -4,8 +4,8 @@ METEOROLOGICAL QUERY TOOL
 The purpose of the MQT is to provide a statistical representation of climate data
 from 30 years ago to today from numerous stations across the United States. This is done though
 the use of the National Climate Data Center's database and a web application to provide a seamless
-user interface. All queries are done in log(n) time complexity due to the use of SQL indexes. The
-user can query data from a specific date or create a visualization of climate trends using the
+user interface. All queries are conducted in log(n) time complexity due to the use of SQL indexes. 
+The user can query data from a specific date or create a visualization of climate trends using the
 Matplotlib library.
 
 The followning languages and techonologies are used in the implementation:
@@ -17,8 +17,8 @@ The followning languages and techonologies are used in the implementation:
     CLIENT SIDE:
         -HTML structures each website route and provides a formatted form.
         -CSS + Bootstrap format the websites and makes them visually appealing.
-        -Javascript + jQuery load the websites to make them independent from
-            the server side to prevent slow internet lag spikes.
+        -Javascript + jQuery handle client-side control flow and make callback GET
+        requests through AJAX to avoid server-dependent performance.
 
 This application was developed in Emacs.
 

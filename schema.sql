@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS "climate"(
+  "STATION" TEXT,
+  "NAME" TEXT,
+  "DATE" TEXT,
+  "ACSH" TEXT,
+  "PRCP" TEXT,
+  "PSUN" TEXT,
+  "SNOW" TEXT,
+  "SNWD" TEXT,
+  "TAVG" TEXT,
+  "TMAX" TEXT,
+  "TMIN" TEXT,
+  "TSUN" TEXT
+);

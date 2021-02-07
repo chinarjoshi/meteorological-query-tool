@@ -10,15 +10,15 @@ using the Matplotlib library.
 
 ## Technologies
 **Server Side**
-    -Python + Flask render the site and return jsons containing database output.
-    -SQLite is the relational database management system used to allow for queries
-            in log(n) time complexity using B-Trees.
+Python + Flask render the site and return jsons containing database output.
+SQLite is the relational database management system used to allow for queries
+    in log(n) time complexity using B-Trees.
 
 **Client Side**
-    -HTML structures each website route and provides a formatted form.
-    -CSS + Bootstrap format the websites and makes them visually appealing.
-    -Javascript + jQuery handle client-side control flow and make callback GET
-        requests through AJAX to avoid server-dependent performance.
+__HTML__ structures each website route and provides a formatted form.
+__CSS + Bootstrap__ format the websites and makes them visually appealing.
+__Javascript + jQuery__ handle client-side control flow and make callback GET
+    requests through AJAX to avoid server-dependent performance.
 
 This application was developed in Emacs.
 

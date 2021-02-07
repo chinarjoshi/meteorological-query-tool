@@ -1,4 +1,4 @@
-## Meteorological Query Tool
+# Meteorological Query Tool #
     -created by Chinar Joshi
 
 The purpose of the MQT is to provide a statistical representation of climate data
@@ -8,28 +8,28 @@ a seamless user interface. All queries are conducted in log(n) time complexity d
 indexes. The user can query data from a specific date or create a visualization of climate trends
 using the Matplotlib library.
 
-## Technologies
+## Technologies ##
 **Server Side**
 Python + Flask render the site and return jsons containing database output.
 SQLite is the relational database management system used to allow for queries
     in log(n) time complexity using B-Trees.
-
-**Client Side**
-__HTML__ structures each website route and provides a formatted form.
-__CSS + Bootstrap__ format the websites and makes them visually appealing.
-__Javascript + jQuery__ handle client-side control flow and make callback GET
+    
+### Client side ###
+**HTML** structures each website route and provides a formatted form.
+**CSS + Bootstrap** format the websites and makes them visually appealing.
+**JavaScript + jQuery** handle client-side control flow and make callback GET
     requests through AJAX to avoid server-dependent performance.
 
 This application was developed in Emacs.
 
-## How to use
+## How to use ##
 If the web application cannot be accessed, run
     pip install "requirements.txt"
     flask run
 to start a development server.
 Note: you may have to initally refresh page.
 
-## TODO
+## TODO ##
     -Manipulate the DOM using jQuery and AJAX calls. When the submit button is pressed,
     make a GET request to the server using the input fields.
     PROBLEM: When the HTML form is submitted, the corresponding JS event listener does

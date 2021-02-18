@@ -57,7 +57,7 @@ using the Matplotlib library.
 
 <p align="center">
   <a href="https://github.com/cjoshi7/meteorological-query-tool">
-    <img src="images/demo.PNG" alt="example-image" width=700 height=500>
+    <img src="images/demo.PNG" alt="example-image" width=800 height=500>
   </a>
 </p>
 

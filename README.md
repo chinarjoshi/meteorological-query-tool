@@ -2,7 +2,7 @@
     
 <p align="center">
   <a href="https://github.com/cjoshi7/meteorological-query-tool">
-    <img src="images/logo.png" alt="Logo" width="100" height="100">
+    <img src="images/icon.png" alt="Logo" width="100" height="100">
   </a>
 
   <h1 align="center">Meteorological Query Tool</h1>

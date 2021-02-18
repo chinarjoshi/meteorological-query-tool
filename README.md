@@ -87,13 +87,6 @@ I learned the fundamentals of data science through cleaning and filtering data a
 * [Bootstrap](https://bootstrap.com)
 * [jQuery](https://jquery.com)
 
-### Languages
-* Python
-* HTML
-* CSS
-* JavaScript
-* SQL
-
 ## Getting Started
 
 No API key is needed to access the tool, so the application may be locally run through the python file.

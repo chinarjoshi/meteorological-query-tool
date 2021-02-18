@@ -1,56 +1,14 @@
 # Meteorological Query Tool #
     -created by Chinar Joshi
-
-The purpose of the MQT is to provide a statistical representation of climate data
-from 30 years ago to today from numerous meteorological stations across the United States. This is 
-done though the use of the National Climate Data Center's database and a web application to provide 
-a seamless user interface. All queries are conducted in log(n) time complexity due to the use of SQL
-indexes. The user can query data from a specific date or create a visualization of climate trends
-using the Matplotlib library.
-
-## Technologies ##
-**Server Side**
-Python + Flask render the site and return jsons containing database output.
-SQLite is the relational database management system used to allow for queries
-    in log(n) time complexity using B-Trees.
     
-### Client side ###
-**HTML** structures each website route and provides a formatted form.
-**CSS + Bootstrap** format the websites and makes them visually appealing.
-**JavaScript + jQuery** handle client-side control flow and make callback GET
-    requests through AJAX to avoid server-dependent performance.
-
-This application was developed in Emacs.
-
-## How to use ##
-If the web application cannot be accessed, run
-    pip install "requirements.txt"
-    flask run
-to start a development server.
-Note: you may have to initally refresh page.
-
-## TODO ##
-    -Manipulate the DOM using jQuery and AJAX calls. When the submit button is pressed,
-    make a GET request to the server using the input fields.
-    PROBLEM: When the HTML form is submitted, the corresponding JS event listener does
-    not reccognize the event, likely due to syntax error because of confusion between
-    element vs id JS syntax. Figure out how to properly select DOM elements.
-
-    -Allow a range of dates to be selected on the HTML file and render coordinate plot
-    using the database response. Use this instead of table.
-
-    -Change the padding and color of the Bootstrap classes in styles.css to center the
-    input fields and make the background sky blue.
-    
-    
-<br />    
+<br />
     
 <p align="center">
-  <a href="https://github.com/cjoshi7/covid19-date-selector">
+  <a href="https://github.com/cjoshi7/meteorological-query-tool">
     <img src="images/logo.png" alt="Logo" width="100" height="100">
   </a>
 
-  <h1 align="center">COVID-19 Date Selector</h1>
+  <h1 align="center">Meteorological Query Tool</h1>
 
   <p align="center">
     Visualize the spread of the coronavirus on a day-by-day basis.
@@ -58,11 +16,11 @@ Note: you may have to initally refresh page.
     <a href="https://github.com/cjoshi7/covid19-date-selector"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/cjoshi7/covid19-date-selector">View Demo</a>
+    <a href="https://youtu.be/r9-8qcNwKmk">View Demo</a>
     ·
-    <a href="https://github.com/cjoshi7/covid19-date-selector">Report Bug</a>
+    <a href="https://github.com/cjoshi7/meteorological-query-tool">Report Bug</a>
     ·
-    <a href="https://github.com/cjoshi7/covid19-date-selector">Request Feature</a>
+    <a href="https://github.com/cjoshi7/meteorological-query-tool">Request Feature</a>
   </p>
 </p>
 
@@ -93,18 +51,19 @@ Note: you may have to initally refresh page.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+The purpose of the MQT is to provide a statistical representation of climate data
+from 30 years ago to today from numerous meteorological stations across the United States. This is 
+done though the use of the National Climate Data Center's database and a web application to provide 
+a seamless user interface. All queries are conducted in log(n) time complexity due to the use of SQL
+indexes. The user can query data from a specific date or create a visualization of climate trends
+using the Matplotlib library.
 
 <p align="center">
-  <a href="https://github.com/cjoshi7/covid19-date-selector">
-    <img src="images/deaths.png" alt="example-image" width=700 height=500>
+  <a href="https://github.com/cjoshi7/meteorological-query-tool">
+    <img src="images/demo.png" alt="example-image" width=700 height=500>
   </a>
 </p>
 
-
-
-<iframe width="420" height="315"
-  src="https://youtu.be/r9-8qcNwKmk">
-</iframe>
 
 ### Inspiration
 While researching for COVID-19 data, I noticed that all of the popular visualization resources either only showed the [current situation](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html), or showed a [quick timeline](https://kitware.github.io/covid-19-vis/). This is not very helpful for researching the number of cases in a specific county on any day as it provides too general of a visualization. Thus, I created a day-by-day visualization tool that allows researchers to query the data for a specific day in a user friendly and visually appealing way.
@@ -128,8 +87,10 @@ I learned the fundamentals of data science through cleaning and filtering data a
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Dash](https://plotly.com/dash)
-* [Bootstrap](https://getbootstrap.com)
+* [Flask](https://plotly.com/dash)
+* [SQLite](https://getbootstrap.com)
+* [Bootstrap](https://bootstrap.com)
+* [jQuery](https://jquery.com)
 
 
 ## Getting Started
@@ -138,7 +99,7 @@ No API key is needed to access the tool, so the application may be locally run t
 
 ### Prerequisites
 
-The prerequisite frameworks and libraries are dash, plotly, and pandas.
+The flask framework must be installed as a prerequisite.
 * pip
   ```sh
   pip install requirements.txt
@@ -150,13 +111,13 @@ The prerequisite frameworks and libraries are dash, plotly, and pandas.
    ```sh
    git clone https://github.com/cjoshi7/covid19-date-selector
    ```
-2. Install NPM packages
+2. Install prerequisites
    ```sh
    pip install requirements.txt
    ```
-4. Directly run the python file
+4. Begin a flask development server
    ```JS
-   python covid19-date-selector/app.py
+   flask run
    ```
 
 
@@ -173,6 +134,18 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 __See the [open issues](https://github.com/cjoshi7/covid19-date-selector) for a list of proposed features (and known issues).__
+## TODO ##
+    -Manipulate the DOM using jQuery and AJAX calls. When the submit button is pressed,
+    make a GET request to the server using the input fields.
+    PROBLEM: When the HTML form is submitted, the corresponding JS event listener does
+    not reccognize the event, likely due to syntax error because of confusion between
+    element vs id JS syntax. Figure out how to properly select DOM elements.
+
+    -Allow a range of dates to be selected on the HTML file and render coordinate plot
+    using the database response. Use this instead of table.
+
+    -Change the padding and color of the Bootstrap classes in styles.css to center the
+    input fields and make the background sky blue.
 <br>
 <p>
   The following features will be implemented in the indefinite future:

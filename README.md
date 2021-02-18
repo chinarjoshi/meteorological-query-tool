@@ -1,6 +1,3 @@
-# Meteorological Query Tool #
-    -created by Chinar Joshi
-    
 <br />
     
 <p align="center">

@@ -82,13 +82,17 @@ I learned the fundamentals of data science through cleaning and filtering data a
 
 
 ### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Flask](https://plotly.com/dash)
-* [SQLite](https://getbootstrap.com)
+* [SQLite3](https://getbootstrap.com)
 * [Bootstrap](https://bootstrap.com)
 * [jQuery](https://jquery.com)
 
+### Languages
+* Python
+* HTML
+* CSS
+* JavaScript
+* SQL
 
 ## Getting Started
 
@@ -96,7 +100,7 @@ No API key is needed to access the tool, so the application may be locally run t
 
 ### Prerequisites
 
-The flask framework must be installed as a prerequisite.
+The Flask framework and SQLite3 RDBMS must be installed as a prerequisite.
 * pip
   ```sh
   pip install requirements.txt
@@ -112,7 +116,7 @@ The flask framework must be installed as a prerequisite.
    ```sh
    pip install requirements.txt
    ```
-4. Begin a flask development server
+4. Initialize a flask development server
    ```JS
    flask run
    ```
@@ -123,7 +127,7 @@ The flask framework must be installed as a prerequisite.
 
 This tool can be used for research purposes to find the exact number of cases in a specific county on any day. It is useful to see the patterns of infection and death rate increases/decreases. For example, it can be seen that the number of infections skyrocketed in early January after the holiday season. The tool is useful for establishing patterns such as this.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://github.com/cjoshi7/meteorological-query-tool)_
 
 
 
@@ -132,17 +136,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 __See the [open issues](https://github.com/cjoshi7/covid19-date-selector) for a list of proposed features (and known issues).__
 ## TODO ##
-    -Manipulate the DOM using jQuery and AJAX calls. When the submit button is pressed,
-    make a GET request to the server using the input fields.
-    PROBLEM: When the HTML form is submitted, the corresponding JS event listener does
-    not reccognize the event, likely due to syntax error because of confusion between
-    element vs id JS syntax. Figure out how to properly select DOM elements.
-
-    -Allow a range of dates to be selected on the HTML file and render coordinate plot
-    using the database response. Use this instead of table.
-
-    -Change the padding and color of the Bootstrap classes in styles.css to center the
-    input fields and make the background sky blue.
+* Manipulate the DOM using jQuery and AJAX calls. When the submit button is pressed, make a GET request to the server using the input fields.
+    * PROBLEM: When the HTML form is submitted, the corresponding JS event listener doesnot reccognize the event, likely due to syntax error because of confusion between element vs id JS syntax. Figure out how to properly select DOM elements.
+* Allow a range of dates to be selected on the HTML file and render coordinate plot using the database response. Use this instead of table.
+* Change the padding and color of the Bootstrap classes in styles.css to center the input fields and make the background sky blue.
 <br>
 <p>
   The following features will be implemented in the indefinite future:

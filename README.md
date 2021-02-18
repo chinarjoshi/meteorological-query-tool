@@ -48,12 +48,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The purpose of the MQT is to provide a statistical representation of climate data
-from 30 years ago to today from numerous meteorological stations across the United States. This is 
-done though the use of the National Climate Data Center's database and a web application to provide 
-a seamless user interface. All queries are conducted in log(n) time complexity due to the use of SQL
-indexes. The user can query data from a specific date or create a visualization of climate trends
-using the Matplotlib library.
 
 <p align="center">
   <a href="https://github.com/cjoshi7/meteorological-query-tool">
@@ -61,6 +55,12 @@ using the Matplotlib library.
   </a>
 </p>
 
+The purpose of the MQT is to provide a statistical representation of climate data
+from 30 years ago to today from numerous meteorological stations across the United States. This is 
+done though the use of the National Climate Data Center's database and a web application to provide 
+a seamless user interface. All queries are conducted in log(n) time complexity due to the use of SQL
+indexes. The user can query data from a specific date or create a visualization of climate trends
+using the Matplotlib library.
 
 ### Inspiration
 While researching for COVID-19 data, I noticed that all of the popular visualization resources either only showed the [current situation](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html), or showed a [quick timeline](https://kitware.github.io/covid-19-vis/). This is not very helpful for researching the number of cases in a specific county on any day as it provides too general of a visualization. Thus, I created a day-by-day visualization tool that allows researchers to query the data for a specific day in a user friendly and visually appealing way.

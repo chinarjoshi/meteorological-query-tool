@@ -1,3 +1,8 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- PROJECT LOGO -->
 <br />
     
 <p align="center">
@@ -40,7 +45,9 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -51,7 +58,7 @@
 
 <p align="center">
   <a href="https://github.com/cjoshi7/meteorological-query-tool">
-    <img src="images/demo.PNG" alt="example-image" width=800 height=500>
+    <img src="images/demo.PNG" alt="example-image" width=850 height=500>
   </a>
 </p>
 
@@ -150,6 +157,17 @@ __See the [open issues](https://github.com/cjoshi7/covid19-date-selector) for a 
   </ol>
 </p>
 
+<!-- CONTRIBUTING -->
+## Contributing
+
+Any contributions to extend features are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/newFeature`)
+3. Commit your Changes (`git commit -m 'Add NewFeature'`)
+4. Push to the Branch (`git push origin feature/newFeature`)
+5. Open a Pull Request
+
 <!-- CONTACT -->
 ## Contact
 
@@ -157,7 +175,14 @@ Chinar Joshi - chinarjoshi7@gmail.com
 
 Project Link: [https://github.com/cjoshi7/covid19-date-selector](https://github.com/cjoshi7/covid19-date-selector)
 
-
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Virus Icon](https://dndi.org/diseases/covid-19/target-product-profile/)
+* [Readme Template](https://github.com/othneildrew/Best-README-Template)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Animate.css](https://daneden.github.io/animate.css)
+* [Loaders.css](https://connoratherton.com/loaders)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

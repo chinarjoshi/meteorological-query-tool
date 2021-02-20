@@ -65,18 +65,11 @@
   </a>
 </p>
 
-The purpose of the MQT is to provide a statistical representation of climate data
-from 30 years ago to today from numerous meteorological stations across the United States. This is 
-done though the use of the National Climate Data Center's database and a web application to provide 
-a seamless user interface. All queries are conducted in log(n) time complexity due to the use of SQL
-indexes. The user can query data from a specific date or create a visualization of climate trends
-using the Matplotlib library.
-
 ### Inspiration
 I noticed that it was difficult to find an API to query meteorological data for a specific region on a specific day, so I created a minimalist web API that allows the user to query climate data from 30 years ago to today from numerous meteorological stations across the United States. The targeted audiences are researchers who would like to obtain very specific data that is difficult to find in other places.
 
 ### What it does
-The tool queries the National Climate Data Center's meteorological database and returns the data specified by the user in the form of a table.
+The tool queries the National Climate Data Center's meteorological database and returns the data specified by the user in the form of a table. The queries are conducted in log(n) time due to the use of SQL indices.
 
 ### How I built it
 This application is built using Flask with Python, jQuery with JavaScript to asyncronously update the website, and the Bootstrap framework to rapidly develop the CSS. The NCDC's meteorological database was used and installed in the form of a csv. The back-end stack is needed to make SQL queries to the included database.

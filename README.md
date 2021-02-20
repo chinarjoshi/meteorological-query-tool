@@ -59,6 +59,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<p align="center">
+  <a href="https://github.com/chinarjoshi/meteorological-query-tool">
+    <img src="images/demo.PNG" alt="example-image" width=850 height=500>
+  </a>
+</p>
+
 ### Inspiration
 I noticed that it was difficult to find an API to query meteorological data for a specific region on a specific day, so I created a minimalist web API that allows the user to query climate data from 30 years ago to today from numerous meteorological stations across the United States. The targeted audiences are researchers who would like to obtain very specific data that is difficult to find in other places.
 
@@ -113,12 +119,6 @@ The Flask framework and SQLite3 RDBMS must be installed as a prerequisite.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-<p align="center">
-  <a href="https://github.com/chinarjoshi/meteorological-query-tool">
-    <img src="images/demo.PNG" alt="example-image" width=850 height=500>
-  </a>
-</p>
 
 This tool can be used for research purposes to find the meteorological data from a specified date and region.
 

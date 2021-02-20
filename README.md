@@ -133,8 +133,6 @@ _For more examples, please refer to the [Documentation](https://github.com/china
 <!-- ROADMAP -->
 ## Roadmap
 
-__See the [open issues](https://github.com/chinarjoshi/covid19-date-selector) for a list of proposed features (and known issues).__
-
 ### Features
 The following features will be implemented in the future.
 1. Add additional visualizations of the data using Matplotlib
@@ -142,6 +140,8 @@ The following features will be implemented in the future.
     - Bar graph of selected datatypes
 
 2. Dark theme
+
+__See the [open issues](https://github.com/chinarjoshi/covid19-date-selector) for a list of proposed features (and known issues).__
 
 ### Source
 * Manipulate the DOM using jQuery and AJAX calls. When the submit button is pressed, make a GET request to the server using the input fields.

@@ -184,14 +184,14 @@ Project Link: [https://github.com/cjoshi7/covid19-date-selector](https://github.
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/chinarjoshi/meteorological-query-tool?style=for-the-badge
 [contributors-url]: https://github.com/chinarjoshi/meteorological-query-tool/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/chinarjoshi/meteorological-query-tool?style=for-the-badge
+[forks-url]: https://github.com/chinarjoshi/meteorological-query-tool/network/members
+[stars-shield]: https://img.shields.io/github/stars/chinarjoshi/meteorological-query-tool?style=for-the-badge
+[stars-url]: https://github.com/chinarjoshi/meteorological-query-tool/stargazers
+[issues-shield]: https://img.shields.io/github/issues/chinarjoshi/meteorological-query-tool?style=for-the-badge
+[issues-url]: https://github.com/chinarjoshi/meteorological-query-tool/issues
+[license-shield]: https://img.shields.io/github/license/chinarjoshi/meteorological-query-tool?style=for-the-badge
+[license-url]: https://github.com/chinarjoshi/meteorological-query-tool/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/chinarjoshi
 [product-screenshot]: images/screenshot.png

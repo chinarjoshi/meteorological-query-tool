@@ -79,13 +79,7 @@ The tool queries the National Climate Data Center's meteorological database and 
 This application is built using Flask with Python, jQuery with JavaScript to asyncronously update the website, and the Bootstrap framework to rapidly develop the CSS. The NCDC's meteorological database was used and installed in the form of a csv. The back-end stack is needed to make SQL queries to the included database.
 
 ### Challenges I ran into
-This project was also developed for learning purposes as I was dipping my toes into web development, so it was challengling
-
-### Accomplishments that I'm proud of
-I created my first deployable web API and made a visually appealing application to solve a real world problem, while introducing me to data science concepts along the way.
-
-### What I learned
-I learned the fundamentals of data science through cleaning and filtering data and how to make useful visualizations by taking advantage of python's many data science libraries. I also learned how to use a new web application framework with Dash.
+This project was also developed for learning purposes as I was dipping my toes into web development, so it was challenging to build a cohesive product while simutaneously learninig what languages and technologies I needed to make it happen. However, in the end I learned about the various web framworks for Python and JavaScript, and I learned how to make a web application.
 
 
 ### Built With
@@ -108,24 +102,33 @@ The Flask framework and SQLite3 RDBMS must be installed as a prerequisite.
 
 ### Installation
 
+#### Compile Source
+
 1. Clone the repo
    ```sh
-   git clone https://github.com/cjoshi7/covid19-date-selector
+   git clone https://github.com/chinarjoshi/meteorological-query-tool
    ```
 2. Install prerequisites
    ```sh
    pip install requirements.txt
    ```
 4. Initialize a flask development server
-   ```JS
+   ```sh
    flask run
    ```
+
+#### Docker
+1. __TODO__
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This tool can be used for research purposes to find the exact number of cases in a specific county on any day. It is useful to see the patterns of infection and death rate increases/decreases. For example, it can be seen that the number of infections skyrocketed in early January after the holiday season. The tool is useful for establishing patterns such as this.
+This tool can be used for research purposes to find the meteorological data from a specified date and region.
+
+1. Select the station from the dropdown menu
+2. Input the date into the corresponding fields
+3. Select which datatypes to query from the database
 
 _For more examples, please refer to the [Documentation](https://github.com/cjoshi7/meteorological-query-tool)_
 
@@ -135,27 +138,20 @@ _For more examples, please refer to the [Documentation](https://github.com/cjosh
 ## Roadmap
 
 __See the [open issues](https://github.com/cjoshi7/covid19-date-selector) for a list of proposed features (and known issues).__
-## TODO ##
+
+### Features
+The following features will be implemented in the future.
+1. Add additional visualizations of the data using Matplotlib
+    -- Temperature vs Time graph
+    -- Bar graph of selected datatypes
+
+2. Dark theme
+
+### Source
 * Manipulate the DOM using jQuery and AJAX calls. When the submit button is pressed, make a GET request to the server using the input fields.
     * PROBLEM: When the HTML form is submitted, the corresponding JS event listener doesnot reccognize the event, likely due to syntax error because of confusion between element vs id JS syntax. Figure out how to properly select DOM elements.
 * Allow a range of dates to be selected on the HTML file and render coordinate plot using the database response. Use this instead of table.
-* Change the padding and color of the Bootstrap classes in styles.css to center the input fields and make the background sky blue.
-<br>
-<p>
-  The following features will be implemented in the indefinite future:
-  <ol>
-    <li>
-      Expanded dataset to include:
-      <ul>
-        <li>Mask usage</li>
-        <li>Population density</li>
-        <li>Demographic breakdown</li>
-      </ul>
-    </li>
-    <li>Dark theme through altered CSS</li>
-    <li>An option to use the program in the command line</li>
-  </ol>
-</p>
+* Change the padding and color of the Bootstrap classes in styles.css to center the input fields and change background color.
 
 <!-- CONTRIBUTING -->
 ## Contributing

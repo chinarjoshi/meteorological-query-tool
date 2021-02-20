@@ -145,8 +145,8 @@ __See the [open issues](https://github.com/chinarjoshi/covid19-date-selector) fo
 ### Features
 The following features will be implemented in the future.
 1. Add additional visualizations of the data using Matplotlib
-    -- Temperature vs Time graph
-    -- Bar graph of selected datatypes
+    - Temperature vs Time graph
+    - Bar graph of selected datatypes
 
 2. Dark theme
 

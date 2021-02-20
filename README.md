@@ -9,7 +9,7 @@
 <br />
     
 <p align="center">
-  <a href="https://github.com/cjoshi7/meteorological-query-tool">
+  <a href="https://github.com/chinarjoshi/meteorological-query-tool">
     <img src="images/icon.png" alt="Logo" width="120" height="120">
   </a>
 
@@ -18,14 +18,14 @@
   <p align="center">
     Visualize the spread of the coronavirus on a day-by-day basis.
     <br />
-    <a href="https://github.com/cjoshi7/covid19-date-selector"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/chinarjoshi/covid19-date-selector"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://youtu.be/r9-8qcNwKmk">View Demo</a>
     ·
-    <a href="https://github.com/cjoshi7/meteorological-query-tool">Report Bug</a>
+    <a href="https://github.com/chinarjoshi/meteorological-query-tool">Report Bug</a>
     ·
-    <a href="https://github.com/cjoshi7/meteorological-query-tool">Request Feature</a>
+    <a href="https://github.com/chinarjoshi/meteorological-query-tool">Request Feature</a>
   </p>
 </p>
 
@@ -60,7 +60,7 @@
 ## About The Project
 
 <p align="center">
-  <a href="https://github.com/cjoshi7/meteorological-query-tool">
+  <a href="https://github.com/chinarjoshi/meteorological-query-tool">
     <img src="images/demo.PNG" alt="example-image" width=850 height=500>
   </a>
 </p>
@@ -133,14 +133,14 @@ This tool can be used for research purposes to find the meteorological data from
 2. Input the date into the corresponding fields
 3. Select which datatypes to query from the database
 
-_For more examples, please refer to the [Documentation](https://github.com/cjoshi7/meteorological-query-tool)_
+_For more examples, please refer to the [Documentation](https://github.com/chinarjoshi/meteorological-query-tool)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-__See the [open issues](https://github.com/cjoshi7/covid19-date-selector) for a list of proposed features (and known issues).__
+__See the [open issues](https://github.com/chinarjoshi/covid19-date-selector) for a list of proposed features (and known issues).__
 
 ### Features
 The following features will be implemented in the future.
@@ -172,7 +172,7 @@ Any contributions to extend features are **greatly appreciated**.
 
 Chinar Joshi - chinarjoshi7@gmail.com
 
-Project Link: [https://github.com/cjoshi7/covid19-date-selector](https://github.com/cjoshi7/covid19-date-selector)
+Project Link: [https://github.com/cjoshi7/covid19-date-selector](https://github.com/chinarjoshi/covid19-date-selector)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements

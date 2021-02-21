@@ -60,6 +60,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+
+<p align="center">
+    <h3 align="center">This project was submitted to Georgia Tech Hacklytics</h3>
+</p>
+
 <p align="center">
   <a href="https://github.com/chinarjoshi/meteorological-query-tool">
     <img src="images/demo.PNG" alt="example-image" width=850 height=500>

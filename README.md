@@ -142,7 +142,7 @@ The following features will be implemented in the future.
 
 2. Dark theme
 
-__See the [open issues](https://github.com/chinarjoshi/covid19-date-selector) for a list of proposed features (and known issues).__
+__See the [open issues](https://github.com/chinarjoshi/covid19-date-selector/issues) for a list of proposed features (and known issues).__
 
 ### Source
 * Manipulate the DOM using jQuery and AJAX calls. When the submit button is pressed, make a GET request to the server using the input fields.

@@ -23,9 +23,9 @@
     <br />
     <a href="https://youtu.be/r9-8qcNwKmk">View Demo</a>
     ·
-    <a href="https://github.com/chinarjoshi/meteorological-query-tool">Report Bug</a>
+    <a href="https://github.com/chinarjoshi/meteorological-query-tool/issues">Report Bug</a>
     ·
-    <a href="https://github.com/chinarjoshi/meteorological-query-tool">Request Feature</a>
+    <a href="https://github.com/chinarjoshi/meteorological-query-tool/issues">Request Feature</a>
   </p>
 </p>
 

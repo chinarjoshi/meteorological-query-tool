@@ -16,7 +16,7 @@
   <h1 align="center">Meteorological Query Tool</h1>
 
   <p align="center">
-    Query climate data from the NCDC's meteorological database.
+    Query climate data from the NCDC's meteorological database
     <br />
     <a href="https://github.com/chinarjoshi/covid19-date-selector"><strong>Explore the docs »</strong></a>
     <br />

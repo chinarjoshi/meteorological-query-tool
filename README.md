@@ -19,6 +19,7 @@
     Query climate data from the NCDC's meteorological database.
     <br />
     <a href="https://github.com/chinarjoshi/covid19-date-selector"><strong>Explore the docs »</strong></a>
+    <h3>This project was submitted to Georgia Tech Hacklytics</h3>
     <br />
     <br />
     <a href="https://youtu.be/r9-8qcNwKmk">View Demo</a>

@@ -60,9 +60,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-
 <p align="center">
-    <h3 align="center">This project was submitted to Georgia Tech Hacklytics</h3>
+    <h3 align="center">
+        This project was submitted to
+        <a href="https://hacklytics.io/">
+            Georgia Tech Hacklytics
+        </a>
+    </h3>
 </p>
 
 <p align="center">

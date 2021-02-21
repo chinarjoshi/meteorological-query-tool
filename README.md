@@ -60,14 +60,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="center">
-    <h3 align="center">
-        This project was submitted to
-        <a href="https://hacklytics.io/">
-            Georgia Tech Hacklytics
-        </a>
-    </h3>
-</p>
+<h3 align="center">
+    This project was submitted to
+    <a href="https://hacklytics.io/">
+        Georgia Tech Hacklytics
+    </a>
+</h3>
 
 <p align="center">
   <a href="https://github.com/chinarjoshi/meteorological-query-tool">

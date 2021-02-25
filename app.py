@@ -30,16 +30,20 @@ class Constants:
         # Associates name of the month with its numeric value through a list comprehension
         # that enumerates the month names.
         self.months = [{'name': month, 'numeric': index + 1} for index, month in enumerate(
-            ('January', 'February', 'March', 'April', 'May', 'June',
-                'July', 'August', 'September', 'October', 'November', 'December')
+            (
+                'January', 'February', 'March', 'April', 'May', 'June',
+                'July', 'August', 'September', 'October', 'November', 'December'
+            )
         )]
         # Associates human readable data field name with database column name through
         # list comprehension that zips an in-line tuple of names with a generator
         # expression that selects column name from an SQL query that returns all
         # column information.
         self.fields = [{'client': client, 'database': database} for client, database in zip(
-            ('Station', 'Name', 'Date', 'Average Cloud Cover', 'Precipitation', 'Percent Sun',
-                'Snowfall', 'Snow Depth', 'Average Temp', 'Max Temp', 'Min Temp', 'Total Sun'),
+            (
+                'Station', 'Name', 'Date', 'Average Cloud Cover', 'Precipitation', 'Percent Sun',
+                'Snowfall', 'Snow Depth', 'Average Temp', 'Max Temp', 'Min Temp', 'Total Sun'
+            ),
             (column for column in db.execute(self.commands['columns']))
         )]
         # Selects all station names.

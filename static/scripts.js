@@ -8,9 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (let field of ['station', 'month', 'day', 'year'])
             input['${field}'] = document.querySelector('#${field}').value;
             
-        // document.querySelector('#error_message').innerHTML = 'foo';
-
-        // jQuery function makes a callback GET request to the /query route, and the whole 
+        // jQuery function makes a callback GET request to the /query route, thus the whole 
         // site is not halted if the server takes a long time to respond. Table entries are
         // created in a loop and added inside of the empty table tag.
         $.get('/query?day=${day}&month=${month}&year=${year}&station=${station}', function(data) {

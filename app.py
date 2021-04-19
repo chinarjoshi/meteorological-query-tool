@@ -66,19 +66,25 @@ def index():
 
 @app.route('/query')
 def query():
-    '''
-    Returns row from database where the station name and date match with
-    input given via URL variables.
-    '''
-    # Associates the variable field name with GET request from client via
-    # dictionary comprehension, looping through a set of fields.
+    """Gets and returns requested database row given date and station
+    
+    Makes GET requests to receive the day, month, year, and station name
+    from URL vars. Returns the corresponding database row after initializing
+    a new connection to db.
+    
+    :returns: jsonified meteorological data
+    :rtype: json
+    """
+    # Associates variable field name with GET request from client via
+    # dictionary comprehension, looping through a set of fields
     fields = {field: request.args.get(field) for field in {'day', 'month', 'year'}}
     # Formats the date using an f-string, but fields must be int-casted before
-    # forcing fixed width.
+    # forcing fixed width for the month
     date = f"{fields['year']}-{int(fields['month']):02}-{int(fields['day']):02}"
     db = sqlite3.connect('static/climate.db').cursor()
     # Associates type of input with database output through list comprehension
-    # that zips client names with select query, and returns list as json.
+    # that zips client names with select query, exports list as json.
+    # Query is accessed from .queries.sql
     return jsonify([{'name': name, 'value': value} for name, value in zip(
         (field['client'] for field in constants.fields),
         db.execute(constants.commands('output'), fields, date).fetchone()

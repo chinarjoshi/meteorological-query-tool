@@ -83,7 +83,7 @@ def query():
     date = f"{fields['year']}-{int(fields['month']):02}-{int(fields['day']):02}"
     db = sqlite3.connect('static/climate.db').cursor()
     # Associates type of input with database output through list comprehension
-    # that zips client names with select query, exports list as json.
+    # that zips client side names with select query, exports list as json.
     # Query is accessed from .queries.sql
     return jsonify([{'name': name, 'value': value} for name, value in zip(
         (field['client'] for field in constants.fields),

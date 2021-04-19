@@ -78,8 +78,8 @@ def query():
     # Associates variable field name with GET request from client via
     # dictionary comprehension, looping through a set of fields
     fields = {field: request.args.get(field) for field in {'day', 'month', 'year'}}
-    # Formats the date using an f-string, but fields must be int-casted before
-    # forcing fixed width for the month
+    # Formats date using an f-string, but fields must be int-casted before
+    # forcing fixed width for month and day
     date = f"{fields['year']}-{int(fields['month']):02}-{int(fields['day']):02}"
     db = sqlite3.connect('static/climate.db').cursor()
     # Associates type of input with database output through list comprehension
